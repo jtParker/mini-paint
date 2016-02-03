@@ -22,6 +22,14 @@ $('#blue').on('click', function() {
   color = 'blue';
 })
 
+$('#purple').on('click', function() {
+  color = 'purple';
+})
+
+$('#teal').on('click', function() {
+  color = 'teal';
+})
+
 $('#green').on('click', function() {
   color = 'green';
 })
@@ -46,7 +54,7 @@ $('#reset').on('click', function() {
   $('.box').removeClass(color);
 })
 
-var colors = 'white green red blue yellow'
+var colors = 'white green teal red purple blue yellow'
 
 $('.box').on('dblclick', function() {
   $(this).removeClass(colors);

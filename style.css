@@ -37,12 +37,20 @@ div div {
   background: green;
 }
 
+.purple {
+  background: purple;
+}
+
 .blue {
   background: blue;
 }
 
 .yellow {
   background: yellow;
+}
+
+.teal {
+  background: teal;
 }
 
 .pallette-white {
@@ -68,8 +76,22 @@ div div {
   padding: 10px
 }
 
+.pallette-purple {
+  background: purple;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+
 .pallette-green {
   background: green;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+
+.pallette-teal {
+  background: teal;
   height: 2%;
   width: 1%;
   padding: 10px;
